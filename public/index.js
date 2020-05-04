@@ -87,7 +87,7 @@ function sendTransaction(isAdding) {
   if (nameEl.value === "" || amountEl.value === "") {
     errorEl.textContent = "Missing Information";
     return;
-  }
+  } 
   else {
     errorEl.textContent = "";
   }
